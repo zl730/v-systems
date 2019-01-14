@@ -53,3 +53,5 @@ SBT_OPTS="${SBT_OPTS} -Xms512M -Xmx1536M -Xss1M -XX:+CMSClassUnloadingEnabled" s
 ```
 
 to solve the `Metaspace error` problem.
+
+test
