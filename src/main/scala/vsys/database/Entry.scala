@@ -40,7 +40,6 @@ object Entry {
   }
 
   
-  
   def fromBytesWithValidLength(bytes: Array[Byte]): Either[ValidationError, Entry] = {
     DataType.fromByte(bytes(0)) match {
       case None =>
