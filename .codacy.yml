@@ -1,0 +1,6 @@
+exclude_paths:
+  - 'generator/**'
+  - 'src/it/**'
+  - 'src/test/**'
+  - 'src/resources/**'
+  - '*.sh'
